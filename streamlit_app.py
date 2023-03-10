@@ -24,4 +24,4 @@ streamlit.header('Fruity Vice Fruit Advice!')
 #FRUITYVICE CRAP
 import requests
 fruityvice_resposne = requests.get("https://fruityvice.com/api/fruit/watermelon")
-streamlit.text('fruityvice_response')
+streamlit.text(fruityvice_response.json())
